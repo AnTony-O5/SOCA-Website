@@ -1,0 +1,514 @@
+/* #region General Website CSS */
+
+    /* #region Navigation bar for the website*/
+        .navigation_bar{
+            background-color: #a64b0086;
+            width: 100%;
+            border-radius: 10px;
+            position: fixed;
+            border: 3px solid #a64b00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .navigation_bar p{
+            display: flex;
+            font-size: clamp(1px, 3vw, 16px);
+            gap: 5%;
+            align-items: center;
+            margin: auto;
+        }
+
+        .navigation_bar a{
+            text-decoration: none;
+            color: white;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+        }
+
+        .navigation_bar a:hover{
+            color: green;
+        }
+
+        #SOCA_logo_nav{
+            display: block;
+            margin-left: 10%;
+        }
+
+        #SOCA_logo_nav:hover{
+            transform: scale(1.05);
+        }
+    /* #endregion Nav bar */
+
+    /* #region Body for website*/
+        body{
+            background: #F8F2EB  center / cover no-repeat;
+            /* background: rgb(69, 155, 92)  center / cover no-repeat; */
+            /* background: #7cf4d4  center / cover no-repeat; */
+            text-align: center;
+            margin: 0;
+        }
+    /* #endregion Body for website */
+    
+    /* #region Headings for the website pages*/
+        .heading_bkg{
+            font-size: clamp(35px, 10vw, 70px);
+            font-weight: bolder;
+            background-color: rgb(239, 220, 195);
+            color: #a64b00;
+            font-style: italic;
+            height: 130px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            border-top: 5px solid #a64b00;
+            border-bottom: 5px solid #a64b00;
+            /* margin-left: 10%;
+            margin-right: 10%; */
+
+        }
+
+        .lead_heading_bkg{
+            font-size: clamp(30px, 3vw, 50px);
+            font-style: italic;
+            font-weight: bolder;
+            color: white;
+            height: 250px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("Images/Page_Images/HeadingPhoto.webp") 50% / cover;
+            border: 3px solid black;
+            margin: 0 0 20px 0;
+        }
+
+    /* #endregion Headings for the website pages */
+
+    /* #region Footer for website*/
+        .footer{
+            background-color: #a64b00;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 0 40px;
+            font-size: clamp(3px, 3vw, 24px);
+            flex-wrap: wrap;
+            border-top: 4px solid black;
+            margin-top: 20px;
+        }
+
+        .footer p{
+            
+            color: rgb(255, 255, 255);
+        }
+
+        #buttons{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 700;
+            font-size: clamp(1px, 3vw, 18px);
+        }
+
+        #buttons a{
+            text-decoration: none;
+            color: black;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #buttons button{
+            height: 30px;
+            background-color: rgb(239, 220, 195) ; 
+            border-color: rgb(239, 220, 195)  ;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+
+        #buttons button:hover{
+            transform: scale(1.05);
+        }
+
+        #SOCA_logo_foot{
+            vertical-align: middle;
+            max-width: 150px;
+        }
+
+        .socials_logo{
+            vertical-align: middle;
+            max-width: 30px;
+            margin-right: 5px;
+        }
+
+        #social{
+            text-align: left;
+        
+        }
+
+        #social a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 700;
+            font-size: clamp(1px, 3vw, 18px);
+        }
+
+        #social img:hover{
+            transform: scale(1.05)
+        }
+
+    /* #endregion footer */
+
+/* #endregion End General Website CSS */
+
+/* #region Home Page */
+
+    /* #region Heading photo, text, and button*/
+        #Main_photo{
+            background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(Images/Events/IMG_1799.webp) 50% / cover no-repeat;
+            width: 100%;
+            aspect-ratio: 16/8;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: "Montserrat", sans-serif;
+            font: bolder;
+            color: white;
+            font-size: clamp(16px, 3vw, 60px);
+            margin: 0 0 20px 0;
+            font-weight: bold;
+        }
+
+        /**Adds some spacing between the text*/
+        #Main_photo p{
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+    /* #region Main heading button */
+            #m_button{
+                text-decoration: none;
+                color: white;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 400;
+                font-size: clamp(1px, 3vw, 18px);
+            }
+
+            #Main_photo button{
+                background-color: #a64b00;
+                border-color: #a64b00;
+                height: 40px;
+                border-radius: 5px;
+                width: 180px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            #Main_photo button:hover{
+                transform:scale(1.05);
+            }
+
+            /** "Join the family!" text */
+            #text{
+                font-size: clamp(16px, 3vw, 40px);
+                margin-bottom: 10px;
+                font-family: "Playfair Display", serif;
+                font-style: italic;
+                font-weight: bold;
+            }
+            
+        /* #endregion Main heading button */
+
+    /* #endregion Heading photo, text, and button*/
+        
+    /* #region Welcome Section */
+
+        /* #region Images */
+            .Showcase{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .caption{
+                font-size: clamp(20px, 10vw, 60px);
+                font-weight: 700;
+                margin-top: 10px;
+                color:#a64b00;
+                font-style: italic;
+            }
+
+            /**Shrinks the full-size images to fit within the space I want them to: 3 per line*/
+            .Showcase1, .Showcase2, .Showcase3{
+                width: 550px;
+                aspect-ratio: 7/5;
+                margin-top: 30px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .Culture, .Community, .Campus_life{
+                width: 100%;
+                height: 100%;
+                border-radius: 5px;
+                display: block;
+                object-fit: cover;
+                border: 3px solid black;
+            }
+        /* #endregion Images */
+        
+        /* #region description-text */
+            #home_desc{
+                font-family: "Playfair Display", serif;
+                padding: 30px;
+                border-left: 5px solid#a64b00;
+                border-right: 5px solid #a64b00;
+                margin: auto;
+                width: 70%;
+                font-size: clamp(10px, 3vw, 30px);
+                margin-top: 50px;
+            }
+
+            .Welcome button{
+                background-color: #a64b00;
+                border-color: #a64b00;
+                height: 40px;
+                border-radius: 5px;
+                width: 180px;
+                margin-top: 10px;
+            }
+
+            .Welcome button:hover{
+                transform:scale(1.05);
+            }
+
+            #button_text{
+                text-decoration: none;
+                color: white;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 400;
+                font-size: clamp(1px, 3vw, 18px);
+            }
+        /* #endregion description-text */
+    
+    /* #endregion Welcome Section */
+        
+    /* #region SOCA News */
+        .SOCA_News{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .Event1, .Event2, .Event3{
+            background-color: white;
+            width: 500px;
+            aspect-ratio: 7/9;
+            border-radius: 25px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .Event_img{
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            display: block;
+            object-fit: cover;
+            border: 5px solid black;
+        }
+
+        .Event_img:hover{
+            border: 5px solid black;
+            transform:scale(1.05);
+        }
+
+        /** Used when you want to add a description to an image: compresses the image to give space for desc*/
+        .Event_desc{
+            width: 100%;
+            height: 70%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+    /* #endregion SOCA News */
+
+    /* #region Membership Leaderboard */ /*!Currently Inactive*/
+        /* #mem-lbd{
+        height: 100%;
+        width: 90%;
+        max-width: 800px;
+        border-radius: 15px;
+        border: 4px solid black;
+        margin-bottom: 20px;
+        } */
+
+    /* #endregion Membership Leaderboard */
+
+/* #endregion End Home Page */
+
+/* #region About Us Page */
+
+    /* #region About Us image and desc */
+        .SOCA_background{
+        display:inline-flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        }
+
+        #SB_pic{
+            border: 4px solid black;
+            border-radius: 25px;
+            width: 80%;
+            max-width: 850px;
+            aspect-ratio: 4/2.8;
+        }    
+    
+        #SB_desc{
+            width: 70%;
+            max-width: 500px;
+            padding: 10px;
+            border-left: 4px solid #a64b00;
+            border-right: 4px solid #a64b00;
+            font-family: "Playfair Display", serif;
+            font-size: clamp(4px, 3vw, 20px);
+        }
+
+        /**Adds a link to Briana's instagram in the about text*/
+        #linkylink{
+            text-decoration: none;
+            color: #a64b00;
+            font-weight: bold;
+        }
+
+        /* #region Button for the membership interest form */
+            .btn{
+                width: 200px;
+                height: 40px;
+                background-color:#a64b00;
+                border-color:#a64b00;
+                border-radius: 5px;
+            }
+
+            .btn:hover{
+                transform: scale(1.05);
+            }
+
+            .btn a{
+                text-decoration: none;
+                color: white;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 15px;
+            }
+        /* #endregion Button for the membership interest form */
+    
+    /* #endregion About Us description */
+
+    /* #region About us Exec board */
+        .Exec_Card{
+            background-color: white;
+            width: 100%;
+            max-width: 350px;
+            aspect-ratio: 7/11;
+            border-radius: 25px;
+            border: 4px solid black; 
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: clamp(4px, 3vw, 24px);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .Executive{
+            width: 100%;
+            height: 65%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom: 4px solid black;
+        }
+
+        /**My images are too small for the transform for some reason so ima deal with that later*/
+        /* .Exec_Card:hover{
+                border: 5px solid black;
+                transform:scale(1.05);
+
+            } */
+
+        .Exec_Section1, .Exec_Section2, .Exec_Section3, .Exec_Section4{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+    /* #endregion About us Exec board */
+
+/* #endregion About Page */
+
+/* #region Events Page */ /*!Currently Inactive*/
+    .SOCA_P_Events{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .P-Event1, .P-Event2, .P-Event3, .P-Event4, .P-Event5, .P-Event6{
+            background-color: white;
+            width: 400px;
+            aspect-ratio: 7/9;
+            border-radius: 25px;
+            border: 4px solid black;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+        }
+
+        .P-Event_img{
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            display: block;
+        }
+
+        .P-Event_desc{
+            width: 100%;
+            height: 70%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+/* #endregion Events Page */
+
+/* #region Gallery Page */
+
+    .G_photo{
+        border: 4px solid black;
+        border-radius: 25px;
+    }
+
+    /*Adds a little slack to the bottom of the page after the last gallery picture*/
+    #final_photo{
+        margin-bottom: 10px;
+    }
+
+/* #endregion Gallery Page */
+
+/* #region Calendar Page */
+
+    #cal_text{
+        font-size: clamp(1px, 3vw, 40px);
+    }
+
+    #calendar{ 
+        margin: auto;
+        max-width: 800px;
+        max-height: 800px;
+        margin-bottom: 2%;
+        aspect-ratio: 1/1;
+        width: 100%;
+    }
+    
+/* #endregion Calendar Page */

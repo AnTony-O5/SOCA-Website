@@ -190,19 +190,19 @@
         }
 
         @keyframes Main_photoCarousel {
-        0%, 18% {
+        0%, 19% {
             background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("Images/Events/IMG_1799.webp") 50% / cover;
         }
 
-        20%, 38% {
+        20%, 39% {
             background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("Images/GBMs/GBM5-F25.webp") 50% / cover;
         }
 
-        40%, 58% {
+        40%, 59% {
             background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("Images/GBMs/GBM\ 1\ photo.webp") 50% / cover;
         }
 
-        60%, 78% {
+        60%, 79% {
             background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("Images/Events/DSA-picnic.webp") 50% / cover;
         }
 

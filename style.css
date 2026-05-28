@@ -487,6 +487,7 @@
     .G_photo{
         border: 4px solid black;
         border-radius: 25px;
+        width: 90%;
     }
 
     /*Adds a little slack to the bottom of the page after the last gallery picture*/

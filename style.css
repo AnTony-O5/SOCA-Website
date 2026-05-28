@@ -12,12 +12,13 @@
             align-items: center;
             z-index: 1000;
             box-sizing: border-box;
+            height: 70px;
         }
 
         .navigation_bar p{
             display: flex;
-            font-size: clamp(1px, 3vw, 16px);
-            gap: 5%;
+            font-size: clamp(1px, 3vw, 18px);
+            gap: 10%;
             align-items: center;
             margin: auto;
         }
@@ -36,6 +37,8 @@
         #SOCA_logo_nav{
             display: block;
             margin-left: 10%;
+            width: 70px;
+            height: 70px;
         }
 
         #SOCA_logo_nav:hover{

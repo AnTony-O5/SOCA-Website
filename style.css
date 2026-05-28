@@ -11,6 +11,7 @@
             justify-content: center;
             align-items: center;
             z-index: 1000;
+            box-sizing: border-box;
         }
 
         .navigation_bar p{
@@ -45,8 +46,6 @@
     /* #region Body for website*/
         body{
             background: #F8F2EB  center / cover no-repeat;
-            /* background: rgb(69, 155, 92)  center / cover no-repeat; */
-            /* background: #7cf4d4  center / cover no-repeat; */
             text-align: center;
             margin: 0;
         }
@@ -65,9 +64,7 @@
             display: flex;
             border-top: 5px solid #a64b00;
             border-bottom: 5px solid #a64b00;
-            /* margin-left: 10%;
-            margin-right: 10%; */
-
+            box-sizing: border-box;
         }
 
         .lead_heading_bkg{
@@ -82,6 +79,7 @@
             background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("Images/Page_Images/HeadingPhoto.webp") 50% / cover;
             border: 3px solid black;
             margin: 0 0 20px 0;
+            box-sizing: border-box;
         }
 
     /* #endregion Headings for the website pages */
@@ -97,6 +95,7 @@
             flex-wrap: wrap;
             border-top: 4px solid black;
             margin-top: 20px;
+            box-sizing: border-box;
         }
 
         .footer p{
@@ -255,6 +254,7 @@
                 display: block;
                 object-fit: cover;
                 border: 3px solid black;
+                box-sizing: border-box;
             }
         /* #endregion Images */
         
@@ -268,6 +268,7 @@
                 width: 70%;
                 font-size: clamp(10px, 3vw, 30px);
                 margin-top: 50px;
+                box-sizing: border-box;
             }
 
             .Welcome button{
@@ -300,6 +301,7 @@
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
+            box-sizing: border-box;
         }
 
         .Event1, .Event2, .Event3{
@@ -319,6 +321,7 @@
             display: block;
             object-fit: cover;
             border: 5px solid black;
+            box-sizing: border-box;
         }
 
         .Event_img:hover{
@@ -367,6 +370,7 @@
             width: 80%;
             max-width: 850px;
             aspect-ratio: 4/2.8;
+            box-sizing: border-box;
         }    
     
         #SB_desc{
@@ -377,6 +381,7 @@
             border-right: 4px solid #a64b00;
             font-family: "Playfair Display", serif;
             font-size: clamp(4px, 3vw, 20px);
+            box-sizing: border-box;
         }
 
         /**Adds a link to Briana's instagram in the about text*/
@@ -429,6 +434,7 @@
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
             border-bottom: 4px solid black;
+            box-sizing: border-box;
         }
 
         /**My images are too small for the transform for some reason so ima deal with that later*/
@@ -488,6 +494,7 @@
         border: 4px solid black;
         border-radius: 25px;
         width: 90%;
+        box-sizing: border-box;
     }
 
     /*Adds a little slack to the bottom of the page after the last gallery picture*/
@@ -510,6 +517,7 @@
         margin-bottom: 2%;
         aspect-ratio: 1/1;
         width: 100%;
+        box-sizing: border-box;
     }
     
 /* #endregion Calendar Page */

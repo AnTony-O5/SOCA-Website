@@ -2,9 +2,8 @@
 
     /* #region Navigation bar for the website*/
         .navigation_bar{
-            background-color: #a64b0086;
+            background-color: #a64b00cd;
             width: 100%;
-            border-radius: 10px;
             position: fixed;
             border: 3px solid #a64b00;
             display: flex;

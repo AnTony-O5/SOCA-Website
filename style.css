@@ -429,7 +429,7 @@
             border: 4px solid black; 
             margin-left: 10px;
             margin-right: 10px;
-            font-size: clamp(1px, 3vw, 28px);
+            font-size: clamp(1px, 2.5vw, 22px);
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
